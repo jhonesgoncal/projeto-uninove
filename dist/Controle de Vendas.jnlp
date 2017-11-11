@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Controle de Vendas.jnlp">
+  <information>
+    <title>Controle de Vendas</title>
+    <vendor>Rafael</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Controle_de_Vendas.jar" size="34530" download="eager" />
+    <jar href="lib\postgresql-9.4.1209.jar" size="678049" download="eager" />
+  </resources>
+  <application-desc main-class="javafxmvc.Main"  name="Controle de Vendas" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
