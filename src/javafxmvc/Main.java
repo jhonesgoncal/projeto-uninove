@@ -5,16 +5,11 @@
  */
 package javafxmvc;
 
-import static com.sun.javafx.scene.control.skin.Utils.getResource;
 import java.io.IOException;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 /**
@@ -30,7 +25,7 @@ public class Main extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
-        stage.setTitle("Sitema de Vendas");
+        stage.setTitle("Business Import System");
         stage.setResizable(false);
         stage.show();
     }

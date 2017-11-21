@@ -62,7 +62,7 @@
                      <children>
                         <Button fx:id="buttonInserir" mnemonicParsing="false" onAction="#HandleButtonInserir" prefHeight="25.0" prefWidth="64.0" text="Inserir" />
                         <Button fx:id="buttonAlterar" layoutX="69.0" mnemonicParsing="false" onAction="#HandleButtonAlterar" prefHeight="25.0" prefWidth="64.0" text="Alterar" />
-                        <Button fx:id="buttonRemover" layoutX="139.0" mnemonicParsing="false" onAction="#HandleButtonRemover" text="Remover" />
+                        <Button fx:id="buttonRemover" layoutX="139.0" mnemonicParsing="false" onAction="#handleButtonRemover" text="Remover" />
                      </children>
                   </Group>
                </children>
