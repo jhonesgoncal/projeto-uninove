@@ -24,12 +24,12 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Graficos">
             <items>
-              <MenuItem fx:id="menuItemGraficosVendasPorMes" mnemonicParsing="false" text="Vendas por Mes" />
+              <MenuItem fx:id="menuItemGraficosVendasPorMes" mnemonicParsing="false" onAction="#handleMenuItemGraficosPorMes" text="Vendas por Mes" />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text="Relatorios">
               <items>
-                <MenuItem fx:id="menuItemRelatoriosQuantidades" mnemonicParsing="false" text="Quantidades de Produtos em Estoque" />
+                <MenuItem fx:id="menuItemRelatoriosQuantidades" mnemonicParsing="false" onAction="#handleMenuItemRelatoriosQuantidadeProdutos" text="Quantidades de Produtos em Estoque" />
               </items>
             </Menu>
         </menus>

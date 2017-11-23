@@ -43,4 +43,17 @@ public class FXMLVBoxMainController implements Initializable {
         AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/javafxmvc/view/FXMLAnchorPaneProcessosVendas.fxml"));
         anchorPane.getChildren().setAll(a);
     }
+    
+    public void handleMenuItemGraficosPorMes() throws IOException{
+        AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/javafxmvc/view/FXMLAnchorPaneGraficosVendasPorMes.fxml"));
+        anchorPane.getChildren().setAll(a);
+    }
+
+    /**
+     *
+     * @throws IOException
+     */
+    public void handleMenuItemRelatoriosQuantidadeProdutos() throws IOException{
+        AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/javafxmvc/view/FXMLAnchorPaneRelatoriosQuantidadeProdutos.fxml"));
+        anchorPane.getChildren().setAll(a);}
 }
