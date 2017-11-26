@@ -46,7 +46,7 @@ public class ItemDeVendaDAO {
     }
 
     public boolean remover(ItemDeVenda itemDeVenda) {
-        String sql = "DELETE FROM itensDeVenda WHERE cdItemDeVenda=?";
+        String sql = "DELETE FROM itensdevenda WHERE cdItemDeVenda=?";
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
             stmt.setInt(1, itemDeVenda.getCdItemDeVenda());
@@ -59,7 +59,7 @@ public class ItemDeVendaDAO {
     }
 
     public List<ItemDeVenda> listar() {
-        String sql = "SELECT * FROM itensDeVenda";
+        String sql = "SELECT * FROM itensdevenda";
         List<ItemDeVenda> retorno = new ArrayList<>();
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
@@ -96,7 +96,7 @@ public class ItemDeVendaDAO {
     }
     
     public List<ItemDeVenda> listarPorVenda(Venda venda) {
-        String sql = "SELECT * FROM itensDeVenda WHERE cdVenda=?";
+        String sql = "SELECT * FROM itensdevenda WHERE cdVenda=?";
         List<ItemDeVenda> retorno = new ArrayList<>();
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
@@ -130,7 +130,7 @@ public class ItemDeVendaDAO {
     }
 
     public ItemDeVenda buscar(ItemDeVenda itemDeVenda) {
-        String sql = "SELECT * FROM itensDeVenda WHERE cdItemDeVenda=?";
+        String sql = "SELECT * FROM itensdevenda WHERE cdItemDeVenda=?";
         ItemDeVenda retorno = new ItemDeVenda();
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
