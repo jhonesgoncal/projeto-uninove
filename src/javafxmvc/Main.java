@@ -25,7 +25,7 @@ public class Main extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
-        stage.setTitle("Business Import System");
+        stage.setTitle("Controlador de Vendas");
         stage.setResizable(false);
         stage.show();
     }
